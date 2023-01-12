@@ -5,3 +5,5 @@ eureka:
   client:
     enabled: true
     serviceUrl.defaultZone: http://localhost:8075/eureka
+    register-with-eureka: false  # this will not register this 8075 server to eureka
+    fetch-registry: false
